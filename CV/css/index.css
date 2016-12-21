@@ -1,0 +1,151 @@
+﻿@font-face{
+	font-family: "Hacked";
+	src: url(fonts/HACKED.ttf) format("truetype");
+}
+
+html {   
+	font-family: Sans-Serif;
+	color: white;
+	height: 100%;
+    width: 100%;
+    margin: 0;
+	padding: 0;
+	background-image: url("../img/computer.jpg");
+	background-position: center;
+}
+
+body {
+	height: 100%;
+    width: 100%;
+    margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.he {
+	height:12%;
+	width:100%;
+}
+
+h1{
+	text-align: center;
+	position: relative;
+	font-family: "Hacked";
+	font-size: 80px;
+	top: 50%;
+    transform: translateY(-50%);
+}
+
+.container{   
+	position: absolute;
+	width: 600px;
+	height: 75%;
+	margin-left: 660px;
+	top: 19%;
+}
+
+.div-photo{
+	position:absolute;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.photo{
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 600px;
+	max-height: 600px;   
+	transition: all 1s;
+	
+}   
+
+h2 {
+	font-size: 45px;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.text {
+	font-size: 25px;
+	position:absolute;
+	display:block;
+	width:80%;
+	text-align:center; 
+	margin-top: 35%;
+	margin-left: 10%;
+	z-index: -1;
+	background-color: rgba(0,0,0,0.8);
+	border-radius: 50px;
+}
+
+p {
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom:10px;
+}
+ .photo:hover{
+	transform: translate(0px,-190px) scale(0.5);
+	border-radius: 50%;
+}
+
+
+footer {
+	height:5%;
+	text-align: center;
+	color:white;
+	margin-top:37%;
+}
+
+#foot {
+	margin: 0 auto;
+	font-size:20px;
+}
+
+footer hr{
+	margin: 5px auto;
+    width: 40%;
+    border: 0.5pt solid #EEE;
+}
+
+
+.button {
+  display: inline-block;
+  background-color: rgba(0,0,0,0.75);
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-top: 5px;
+  margin-left: 200px;
+  border-radius: 25px;
+}
+
+.button span {
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}

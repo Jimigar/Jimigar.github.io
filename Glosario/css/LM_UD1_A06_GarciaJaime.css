@@ -1,0 +1,193 @@
+/*
+ *CSS BASICO
+ */
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	color: white;
+    background-image: url("../img/fondo.png"); 
+    background-attachment: fixed;
+	font-size: 16px;
+	line-height: 24px;
+    padding-top:100px;
+}
+
+.box-state {
+  display: none;
+}
+
+.read-more {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: 0.2s ease;
+}
+
+.read {
+margin-bottom: 15px;
+}
+
+.box-state:checked ~ .read .read-more {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 700px;
+}
+
+.box-state ~ .button-read:before {
+  content: 'Show more';
+}
+
+.box-state:checked ~ .button-read:before {
+  content: 'Show less';
+}
+
+.button-read {
+  cursor: pointer;
+  display: inline-block;
+  padding: 9px;
+  margin-left: 30px;
+  margin-bottom: 15px;
+  color: white;
+  font-size: 14px;
+  line-height: 2;
+  border: 1px solid #333;
+  border-radius: 10px;
+  background-color: black;
+}
+ 
+h1 {
+	text-align: center;
+}
+ 
+.pelota{
+    max-height: 40px;
+    max-width: 40px;
+}
+
+h2{
+    text-align: center;
+	padding-top:80px;
+}
+h3{
+    padding-left: 15px;
+}
+
+.imagen{
+    max-height: 265px;
+    max-width: 250px;
+    margin-right:80px;
+}
+
+hr {
+	margin-top:60px;
+}
+
+p {
+	margin: 5px 30px 50px 30px;
+}
+
+#intro{
+    max-width: 1200px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+a{
+    color:#FE9A2E;
+    text-decoration: none;
+
+}
+
+
+a:hover{
+    color: #0b76a6;
+}
+
+#mainfooter {
+	display:block;
+	text-align:center;
+	margin: 60px auto;
+}
+
+/*
+ *Cabecera
+ */
+
+#mainheader {
+	background: #333;
+	max-height: 140px;
+    width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+	left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	top: 0; /* Posicionamos la cabecera pegada arriba */
+	position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+}	
+	#mainheader a {
+		color: white;
+	}
+ 
+/*
+ * Volver a inicio
+ */
+#inicio {
+	float: left;
+	padding: 15px 10px 10px 20px;
+	text-decoration: none;
+}
+	#inicio:hover {
+		color: #0b76a6;
+	}
+	
+	#inicio .name {
+		display: block;
+		font-weight: 700;
+		font-size: 30px;
+        padding-left:20px;
+        padding-top:10px;
+	}
+	
+ 
+/*
+ * Navegación
+ */
+nav {
+	float: right;
+}
+	nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		padding-right: 20px;
+	}
+	
+		nav ul li {
+			display: inline-block;
+			line-height: 80px;
+		}
+			
+			nav ul li a {
+				display: block;
+				padding: 0 10px;
+				text-decoration: none;
+                font-size:20px;
+			}
+			
+				nav ul li a:hover {
+					background: #FE9A2E;
+				}
+
+
+
+
+
+
+#contenido {
+    background:#848484;
+	width: 90%;
+	max-width: 1000px;
+	margin: 20px auto;
+    box-shadow: 0px 0px 5px 10px #A4A4A4;
+    border-radius: 10px 10px 10px 10px;
+    border: 10px solid #000000;
+}
+
