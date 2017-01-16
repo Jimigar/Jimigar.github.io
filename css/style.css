@@ -11,11 +11,13 @@ body {
 	padding: 0;
 	font-family: Helvetica, Arial, sans-serif;
 	color: white;
-    background-image: url("../f.jpg"); 
-    background-attachment: fixed;
-	font-size: 16px;
+    	background-image: url("../f.jpg"); 
+    	background-attachment: fixed;
+	font-size: 18px;
 	height:100%;
 	width:100%;
+	text-decoration:none;
+	list-style:none;
 	
 }
 h1  {
@@ -31,7 +33,7 @@ li {
 
 article {
 	position: relative;
-	margin: 13% 5%;
+	margin: 13% 10%;
 }
 
 #contenido {
