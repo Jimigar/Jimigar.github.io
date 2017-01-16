@@ -1,3 +1,8 @@
+@font-face{
+	font-family: "Hacked";
+	src: url(fonts/HACKED.ttf) format("truetype");
+}
+
 html{
 	height:100%;
 	width:100%;
@@ -6,18 +11,21 @@ html{
 	overflow:hidden;
 }
 
+a  {
+	text-decoration: none;
+	color:white;
+}
+
 body {
 	margin: 0;
 	padding: 0;
 	font-family: Helvetica, Arial, sans-serif;
 	color: white;
-    	background-image: url("../f.jpg"); 
-    	background-attachment: fixed;
-	font-size: 18px;
+    background-image: url("../f.jpg"); 
+    background-attachment: fixed;
 	height:100%;
 	width:100%;
-	text-decoration:none;
-	list-style:none;
+	
 	
 }
 h1  {
@@ -26,14 +34,23 @@ h1  {
 	margin-top:1%;
 }
 
-li {
-	font-size:30px;
-	margin: 6% auto;
+ol {
+	display: inline-block;
+	width: 600px;
 }
 
+li {
+	font-size:40px;
+	margin: 6% auto;
+	font-family: "Hacked";
+}
+
+li:hover {
+	color: orange;
+	border-bottom: medium dashed;
+}
 article {
-	position: relative;
-	margin: 13% 10%;
+	margin: 13% 32%;
 }
 
 #contenido {
@@ -44,7 +61,6 @@ article {
     box-shadow: 0px 0px 5px 10px #A4A4A4;
     border-radius: 10px;
     border: 10px solid #000000;
-	
 }
 
 
