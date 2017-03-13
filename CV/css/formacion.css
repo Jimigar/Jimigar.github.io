@@ -12,10 +12,6 @@ html {
 	overflow: hidden;
 }
 
-li{
-	list-style-type: none;
-}
-
 body {
 	color: white;
 	background-image: url("../img/computer.jpg");
@@ -69,6 +65,9 @@ img {
 	border-radius: 75px;
 }
 
+ul {
+	list-style-type:none;
+}
 #datos {
 	text-align:center;
 	position:relative;

@@ -91,10 +91,11 @@ img {
 	background-color: green;
 	border-radius: 25px
 }
-#skillbar1 {
-	position: relative;		
+#skillbar1 {	
+	overflow:hidden;
 	display:inline-block;
 	width: 80%;
+	height:6.5%;
 	background-color: grey;
 	margin-top: 16%;
 	margin-left: 10%;
@@ -102,9 +103,10 @@ img {
 	
 }
 #skillbar2 {
-	position: relative;		
+	overflow:hidden;
 	display:inline-block;
 	width: 80%;
+	height:6.5%;
 	background-color: grey;
 	margin-top: 10%;
 	margin-left: 10%;
@@ -112,9 +114,10 @@ img {
 }
 
 #skillbar3 {
-	position: relative;		
+	overflow:hidden;	
 	display:inline-block;
 	width: 80%;
+	height:6.5%;
 	background-color: grey;
 	margin-top: 10%;
 	margin-left: 10%;

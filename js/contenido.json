@@ -1,0 +1,54 @@
+﻿[
+	{
+		"title": "CURRICULUM",
+		"date": "12-12-2016",
+		"description": "Página Web con el curriculum personal",
+		"url": "CV/inicio.html",
+		"members": "Jaime García",
+		"relations": "Lenguaje de marcas y sistemas de gestión de la información",
+		"avaible": "Si",
+		"important": "Si",
+		"responsive": "No",
+		"recdisplay": "1920x1200",
+		"image": "css/foto1.png"
+	},
+	{
+		"title": "GLOSARIO BALONCESTO",
+		"date": "30-10-2016",
+		"description": "Top 10 de jugadores de baloncesto",
+		"url": "Glosario/LM_UD1_A06_GarciaJaime.html",
+		"members": "Jaime García",
+		"relations": "Lenguaje de marcas y sistemas de gestión de la información",
+		"avaible": "Si",
+		"important": "Si",
+		"responsive": "No",
+		"recdisplay": "1920x1200",
+		"image": "css/foto2.png"
+	},
+	{
+		"title": "PRESENTACION",
+		"date": "10-10-2016",
+		"description": "Primera página web",
+		"url": "PrimeraWeb/LM_UD1_A05_GarciaJaime.html",
+		"members": "Jaime García",
+		"relations": "Lenguaje de marcas y sistemas de gestión de la información",
+		"avaible": "Si",
+		"important": "No",
+		"responsive": "No",
+		"recdisplay": "1920x1200",
+		"image": "css/foto3.png"
+	},
+	{
+		"title": "GAMELODY",
+		"date": "27-11-2016",
+		"description": "Web de música de videojuegos",
+		"url": "",
+		"members": "Jaime García, Alejandro Martín-Serrano, Iván Galvez",
+		"relations": "Lenguaje de marcas y sistemas de gestión de la información",
+		"avaible": "No",
+		"important": "Si",
+		"responsive": "No",
+		"recdisplay": "1920x1200",
+		"image": "css/foto4.png"
+	}
+]
