@@ -135,11 +135,11 @@ hr{
 	}
 	
 	h2 {
-		font-size:1.2em;
+		font-size:1.4em;
 	}
 	
 	#pruebi {
-		font-size:1.1em;
+		font-size:1.3em;
 	}
 	.listado {
 	font-size:2.1em;
@@ -151,30 +151,29 @@ hr{
 		font-size:2.5em;
 	}
 	
-	h2 {
-		font-size:0.9em;
-	}
 	
 	#pruebi {
-		font-size:0.8em;
+		font-size:1.1em;
 	}
 	
 	.listado:hover {
-	color: orange;
 	border-bottom:thin dashed;
 	}
 	
 	.listado {
-		font-size:1.5em;
+		font-size:1.8em;
 	}
 }
-
-@media screen and (max-width:755px) {
-	h1{
-		font-size:2.2em;
+@media screen and (max-width:885px) {
+	#contenido {
+		flex-direction:column;
 	}
 	
-	.listado {
-		font-size:1.2em;
+	.listado:hover {
+	border-bottom:thin dashed;
+	}
+	#pruebi {
+		font-size:1em;
+		margin-bottom: 8%;
 	}
 }
