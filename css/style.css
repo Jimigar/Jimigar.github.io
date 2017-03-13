@@ -169,6 +169,22 @@ hr{
 	
 	#pruebi {
 		font-size:1em;
-		margin-bottom: 8%;
+		margin-bottom: 6.5%;
+	}
+}
+
+
+@media screen and (max-width:707px) {
+	#contenido {
+		flex-direction:column;
+	}
+	
+	#pruebi {
+		font-size:0.8em;
+		margin-bottom: 15%;
+	}
+	
+	.listado {
+		font-size:1.4em;
 	}
 }
