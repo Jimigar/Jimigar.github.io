@@ -185,14 +185,19 @@ hr{
 	
 	#pruebi {
 		font-size:0.65em;
-		margin-bottom:35%;
 		width:100%;
 		margin-left: 30%;
 		margin-right:20%;
+		margin-bottom:20%;
 	}
 	
+	.muestra {
+		width:60%;
+		height:60%;
+	}
 	article {
 		width:100%;
+		margin-bottom:25%;
 	}
 	.listado {
 		font-size:0.85em;
