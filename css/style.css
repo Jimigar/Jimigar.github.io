@@ -102,7 +102,9 @@ a {
 
 .listado:hover {
 	color: orange;
-	border-bottom: medium dashed;
+	border-bottom: dashed;
+	border-bottom-width:0.1em; 
+	
 }
 
 a  {
@@ -156,10 +158,6 @@ hr{
 		font-size:1.1em;
 	}
 	
-	.listado:hover {
-	border-bottom:thin dashed;
-	}
-	
 	.listado {
 		font-size:1.8em;
 	}
@@ -169,9 +167,6 @@ hr{
 		flex-direction:column;
 	}
 	
-	.listado:hover {
-	border-bottom:thin dashed;
-	}
 	#pruebi {
 		font-size:1em;
 		margin-bottom: 8%;
